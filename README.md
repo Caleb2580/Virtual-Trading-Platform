@@ -5,7 +5,7 @@
 ###   - MongoDB was used to store the data, and I used pymongo to access the database
 
 ![main](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/noInd.png)
-## ![main.py](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/main.py)
+## ![main.py](main.py)
 ###   - The main file is the main window.
 ###   - Implementation of functions:
 ###       - Buying and selling stock

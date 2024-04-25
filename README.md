@@ -3,8 +3,14 @@
 ###   - The UI is made using PyQt5
 ###   - The graph itself was made from grabbing historical stock data from Yahoo Finance, and then using pillow to create an image from that data.
 ###   - MongoDB was used to store the data, and I used pymongo to access the database
-## ![graph.py](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/graph.py)
-###   - Graph
+## ![main.py](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/main.py)
+###   - The main file is the main window.
+###   - Implementation of functions:
+###       - Buying and selling stock
+###       - Call/put
+###       - Logging in and updating balance
+###       - Initializing random tickers and dates
+###       - Creating and closing graph windows
 ## ![CustomWidgets.py](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/CustomWidgets.py)
 ###   - The Custom Widgets file has all of the necessary functions to create the graph, and display it on a custom window.
 ###   - A custom cursor that allows the user to maneuver the graph, and access the parts that it desires.
@@ -13,3 +19,5 @@
 ###   - Tools to draw price lines, supply/demand zones, and diagonal lines.
 ## ![grab.py](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/grab.py)
 ###   - The grab.py file contains all of the methods for grabbing data from Yahoo Finance including specific periods, intervals, and dates
+## ![admin.py](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/admin.py)
+###   - The admin file allows me to create users, reset users, and plot user's balance history

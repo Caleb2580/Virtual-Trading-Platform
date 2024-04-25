@@ -8,7 +8,7 @@
 ## [main.py](main.py)
 ###   - The main file is the main window.
 ###   - Implementation of functions:
-###   \t\t- Buying and selling stock
+###         - Buying and selling stock
 ###   - Call/put
 ###   - Logging in and updating balance
 ###   - Initializing random tickers and dates

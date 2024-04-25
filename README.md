@@ -3,6 +3,8 @@
 ###   - The UI is made using PyQt5
 ###   - The graph itself was made from grabbing historical stock data from Yahoo Finance, and then using pillow to create an image from that data.
 ###   - MongoDB was used to store the data, and I used pymongo to access the database
+
+![main](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/noInd.png)
 ## ![main.py](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/main.py)
 ###   - The main file is the main window.
 ###   - Implementation of functions:
@@ -11,6 +13,8 @@
 ###       - Logging in and updating balance
 ###       - Initializing random tickers and dates
 ###       - Creating and closing graph windows
+
+![graph](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/graph.png)
 ## ![CustomWidgets.py](https://github.com/Caleb2580/Paper-Trading-Game/blob/main/CustomWidgets.py)
 ###   - The Custom Widgets file has all of the necessary functions to create the graph, and display it on a custom window.
 ###   - A custom cursor that allows the user to maneuver the graph, and access the parts that it desires.

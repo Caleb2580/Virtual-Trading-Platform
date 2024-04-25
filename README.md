@@ -8,11 +8,11 @@
 ## [main.py](main.py)
 ###   - The main file is the main window.
 ###   - Implementation of functions:
-###         - Buying and selling stock
-###   - Call/put
-###   - Logging in and updating balance
-###   - Initializing random tickers and dates
-###   - Creating and closing graph windows
+      - Buying and selling stock
+      - Call/put
+      - Logging in and updating balance
+      - Initializing random tickers and dates
+      - Creating and closing graph windows
 
 ![graph](graph.png)
 ## [CustomWidgets.py](CustomWidgets.py)

@@ -1,5 +1,5 @@
-# Paper Trading Game
-## This application is a fully developed paper trading game from scratch that allows you to trade at all hours of the day by grabbing historical data. It uses a mongodb to store data, that way the user can keep track of their progress, and also monitor their friends progress. Everything was made from scratch including the graph window.
+# Virtual Trading Platform
+## This application is a fully developed virtual trading game from scratch that allows you to trade at all hours of the day by grabbing historical data. It uses a mongodb to store data, that way the user can keep track of their progress, and also monitor their friends progress. Everything was made from scratch including the graph window.
 ###   - The UI is made using PyQt5
 ###   - The graph itself was made from grabbing historical stock data from Yahoo Finance, and then using pillow to create an image from that data.
 ###   - MongoDB was used to store the data, and I used pymongo to access the database

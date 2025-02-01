@@ -1,0 +1,157 @@
+QWidget[objectName="centralwidget"] {
+    background-color: rgb(25, 25, 25);
+}
+
+QFrame[objectName="trade_frame"] {
+    background-color: rgb(50, 50, 50);
+}
+
+QLabel[objectName="trade_log_title"] {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+QLabel[objectName="trade_log"] {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+QPushButton[objectName="buy_button"] {
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(75, 150, 75);
+    border: none;
+}
+QPushButton[objectName="buy_button"]:hover {
+    background-color: rgb(100, 200, 100);
+    border: none;
+}
+QPushButton[objectName="buy_button"]:pressed {
+    border: 2px solid white;
+}
+
+QPushButton[objectName="sell_button"] {
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    background-color: rgb(150, 75, 75);
+    border: none;
+}
+QPushButton[objectName="sell_button"]:hover {
+    background-color: rgb(255, 75, 75);
+    border: none;
+}
+QPushButton[objectName="sell_button"]:pressed {
+    border: 2px solid white;
+}
+
+QPushButton[objectName="step_button"] {
+    font-size: 15px;
+    color: rgb(10, 10, 10);
+    background-color: rgb(250, 250, 250);
+    border: none;
+}
+
+QFrame[objectName="trade_options_frame"] {
+    background-color: rgba(0, 0, 0, .25);
+}
+
+QLineEdit[objectName="amt_line_edit"] {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-left: 50px;
+}
+
+QLabel[objectName="dollar_sign"] {
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+}
+
+QComboBox[objectName="call_put_combo_box"] {
+    color: white;
+    background-color: rgb(50, 50, 50);
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+QComboBox[objectName="call_put_combo_box"] QAbstractItemView {
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+
+QComboBox[objectName="call_put_combo_box"]::drop-down {
+    border: none;
+}
+
+
+QProgressBar[objectName="day_progress_bar"] {
+    color: white;
+}
+
+
+QFrame[objectName="bought_frame"] {
+    border: none;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+QLabel[objectName="bought_call_label"] {
+    color: rgb(100, 150, 100);
+    font-size: 18px;
+}
+QLabel[objectName="bought_put_label"] {
+    color: rgb(175, 100, 100);
+    font-size: 18px;
+}
+QLabel[objectName="bought_invested_label"] {
+    color: white;
+    font-size: 18px;
+}
+
+
+QLabel[objectName="username_label"] {
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+QLabel[objectName="money_label"] {
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+
+QPushButton[objectName="new_chart_button"] {
+    background-color: rgb(150, 150, 150);
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+QPushButton[objectName="new_chart_button"]:hover {
+    background-color: rgb(175, 175, 175);
+}
+QPushButton[objectName="new_chart_button"]:pressed {
+    border: 2px solid rgb(50, 50, 50);
+}
+
+QPushButton[objectName="open_chart_button"] {
+    background-color: rgb(150, 150, 150);
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+QPushButton[objectName="open_chart_button"]:hover {
+    background-color: rgb(175, 175, 175);
+}
+QPushButton[objectName="open_chart_button"]:pressed {
+    border: 2px solid rgb(50, 50, 50);
+}
+
+
+

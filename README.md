@@ -1,5 +1,5 @@
 # Virtual Trading Platform
-## This application is a fully developed virtual trading game from scratch that allows you to trade at all hours of the day by grabbing historical data. It uses a mongodb to store data, that way the user can keep track of their progress, and also monitor their friends progress. Everything was made from scratch including the graph window.
+## This application is a fully developed virtual trading game built from the ground up, allowing users to trade anytime by leveraging historical market data from the Yahoo Finance API. It integrates MongoDB for efficient data storage, enabling users to track their trading progress and monitor their friends' achievements. Additionally, the platform features a custom-built graphing interface designed entirely from scratch, providing a dynamic and interactive trading experience.
 ###   - The UI is made using PyQt5
 ###   - The graph itself was made from grabbing historical stock data from Yahoo Finance, and then using pillow to create an image from that data.
 ###   - MongoDB was used to store the data, and I used pymongo to access the database

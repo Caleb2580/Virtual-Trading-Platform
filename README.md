@@ -4,7 +4,7 @@
 ###   - The graph itself was made from grabbing historical stock data from Yahoo Finance, and then using pillow to create an image from that data.
 ###   - MongoDB was used to store the data, and I used pymongo to access the database
 
-![main](noInd.png)
+![main](mainscreen.png)
 ## [main.py](main.py)
 ###   - The main file is the main window.
 ###   - Implementation of functions:

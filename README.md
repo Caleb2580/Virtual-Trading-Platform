@@ -1,4 +1,4 @@
-# Virtual Trading Platform
+# IntelliTrade - Advanced Stock Trading Platform
 ## This application is a fully developed virtual trading game built from the ground up, allowing users to trade anytime by leveraging historical market data from the Yahoo Finance API. It integrates MongoDB for efficient data storage, enabling users to track their trading progress and monitor their friends' achievements. Additionally, the platform features a custom-built graphing interface designed entirely from scratch, providing a dynamic and interactive trading experience.
 ###   - The UI is made using PyQt5
 ###   - The graph itself was made from grabbing historical stock data from Yahoo Finance, and then using pillow to create an image from that data.

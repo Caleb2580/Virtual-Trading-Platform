@@ -210,9 +210,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
         self.setWindowTitle("Intellitrade")
 
-        # self.db = MongoClient('<server-link>')['options']['people']
-        # IXaeBwFEUEcGkzWQ
-        self.db = MongoClient('mongodb+srv://a24642b:IXaeBwFEUEcGkzWQ@cluster0.id7u3.mongodb.net/')['options']['people']
+        self.db = MongoClient('<server-link>')['options']['people']
         
         if not self.login():
             sys.exit()

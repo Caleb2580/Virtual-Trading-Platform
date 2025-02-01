@@ -45,8 +45,7 @@ def plot_user_history(db: pymongo.collection.Collection, username):
 
 def main():
 
-    # cluster = MongoClient('<server-link>')
-    cluster = MongoClient('mongodb+srv://a24642b:IXaeBwFEUEcGkzWQ@cluster0.id7u3.mongodb.net/')
+    cluster = MongoClient('<server-link>')
     db = cluster['options']['people']
 
     users = [
